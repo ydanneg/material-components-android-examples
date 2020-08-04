@@ -62,4 +62,49 @@
     <!--color on surface (light)-->
     <color name="black_900">#000000</color>
 
+    <!--Color palette Agrello-->
+
+    <color name="navy_50">#dce9ff</color>
+    <color name="navy_100">#8bb5ff</color>
+    <color name="navy_200">#6292ff</color>
+    <color name="navy_300">#3c70ff</color>
+    <color name="navy_400">#2154ff</color>
+    <color name="navy_500">#1a38f1</color>
+    <color name="navy_600">#0d2ae6</color>
+    <color name="navy_700">#0d2ae6</color>
+    <color name="navy_800">#011cc7</color>
+    <color name="navy_900">#021ab4</color>
+
+    <!--Navy Accent-->
+
+    <color name="navy_A100">#3dccff</color>
+    <color name="navy_A200">#0091f7</color>
+    <color name="navy_A300">#0075f5</color>
+    <color name="navy_A400">#0057e3</color>
+
+    <!--Teal-->
+    <color name="teal_50">#c4fff5</color>
+    <color name="teal_100">#99ffe6</color>
+    <color name="teal_200">#5bf9d3</color>
+    <color name="teal_300">#52f0ca</color>
+    <color name="teal_400">#4ae8c1</color>
+    <color name="teal_500">#40deb4</color>
+    <color name="teal_600">#31cfa5</color>
+    <color name="teal_700">#1cba95</color>
+    <color name="teal_800">#08a68a</color>
+    <color name="teal_900">#019482</color>
+
+    <!--Teal Accent-->
+
+    <color name="teal_A100">#59f7e8</color>
+    <color name="teal_A200">#49e7cc</color>
+    <color name="teal_A300">#37d5be</color>
+    <color name="teal_A400">#1ab8a1</color>
+
+    <!-- other colors-->
+
+    <color name="dark_purple">#2c313f</color>
+    <color name="light_surface">#f4f6f9</color>
+    <color name="red_berry">#ce2263</color>
+
 </resources>
