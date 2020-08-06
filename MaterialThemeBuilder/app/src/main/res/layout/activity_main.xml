@@ -23,10 +23,10 @@
   android:layout_width="match_parent">
 
     <androidx.viewpager.widget.ViewPager
-      android:id="@+id/view_pager"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="705dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
     <com.google.android.material.appbar.AppBarLayout
       style="@style/Widget.MaterialComponents.AppBarLayout.Surface"
@@ -95,15 +95,15 @@
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
         <com.google.android.material.tabs.TabLayout
-          android:id="@+id/tab_layout"
-          android:layout_width="match_parent"
-          android:layout_height="?actionBarSize"
-          android:layout_gravity="bottom"
-          android:background="@android:color/transparent"
-          app:tabTextColor="?colorOnSurface"
-          app:tabSelectedTextColor="?colorPrimary"
-          app:tabIndicatorColor="?colorPrimary"
-          app:tabMode="scrollable" />
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_gravity="bottom"
+            android:background="@android:color/transparent"
+            app:tabIndicatorColor="?colorPrimary"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="?colorPrimary"
+            app:tabTextColor="?colorOnSurface" />
 
     </com.google.android.material.appbar.AppBarLayout>
 

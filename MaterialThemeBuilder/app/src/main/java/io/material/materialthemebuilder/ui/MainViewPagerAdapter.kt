@@ -20,6 +20,7 @@ import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
+import io.material.materialthemebuilder.DashboardFragment
 import io.material.materialthemebuilder.R
 import io.material.materialthemebuilder.ui.component.ComponentFragment
 import io.material.materialthemebuilder.ui.instruction.InstructionsFragment
@@ -34,9 +35,11 @@ class MainViewPagerAdapter(
 ) : FragmentStatePagerAdapter(fragmentManager) {
 
   enum class MainFragments(val titleRes: Int) {
+    DASHBOARD(R.string.tab_title_dashboad),
     INSTRUCTIONS(R.string.tab_title_instructions),
     THEME_SUMMARY(R.string.tab_title_theme_summary),
     COMPONENTS(R.string.tab_title_components)
+
   }
 
   override fun getCount(): Int = MainFragments.values().size
@@ -54,6 +57,7 @@ class MainViewPagerAdapter(
       MainFragments.INSTRUCTIONS -> InstructionsFragment()
       MainFragments.THEME_SUMMARY -> ThemeSummaryFragment()
       MainFragments.COMPONENTS -> ComponentFragment()
+      MainFragments.DASHBOARD -> DashboardFragment()
     }
   }
 }
